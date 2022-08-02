@@ -1,0 +1,350 @@
+/*CSS Style*/
+#menu-bar {
+    height: 100px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: grid;
+    text-transform: uppercase;
+    grid-template-columns: 50% auto auto auto;
+  }
+  
+  #menu-bar div {
+    font-size: 20px;
+  }
+  
+  .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo{
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 60px;
+  }
+  
+  img {
+    padding-left: 0px;
+    padding-top: 0px;
+    height: 80%;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+  }
+  
+  button:hover {
+      cursor: pointer;
+  }
+  
+  #space-body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), 
+    url(https://rocketman.learnwagtail.com/media/images/spacex-OHOU-5UVIYQ-unsplash.2e16d0ba.fill-1600x800.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-top: 120px;
+   height: 800px;
+  
+  }
+  
+  #main-body {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .space-left-body {
+    padding-left: 50px;
+  }
+  
+  #body-title {
+    color: #FFFFFF;
+    font-size: 64px;
+    width: 40%;
+  }
+  
+  .fonts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  #space-information {
+    margin-top: -30px;
+    color: #FFFFFF;
+    font-size: 1.875rem;
+  }
+  .button {
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+  
+  #body-blocks {
+    display: flex;
+    column-gap: 30px;
+    padding-top: 10px;
+    justify-content: center;
+  }
+  .setup-box {
+    position: relative;
+    height: 600px;
+    width: 770px;
+    background-size: cover;
+  }
+  
+  .heading {
+    font-family: Helvetica;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: -4px;
+    color: #FFF;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .info {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.43;
+    width: 400px;
+    color: #FFF;
+    margin-left: -4px;
+    text-align: left;
+  }
+  .button-format {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 13px 17px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    color: black;
+    margin-left: -246px;
+  }
+  .button-format:hover {
+    transition: all 1s;
+    background-color: gray;
+    color: white;
+  }
+  
+  .gray-background {
+    background-image: url(https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png);
+  }
+  .left-block, .right-block {
+    border: 1px solid rgba(0,0,0,.125);
+    padding-bottom: 40px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .left-block:hover, .right-block:hover {
+    transform: scale(1.05);
+  }
+  
+  .left-block p, .right-block p {
+    font-size: 21px;
+    width: 450px;
+    text-align: center;
+    color: black;
+    margin: 10px auto 10px auto;
+  }
+  .left-block h3, .right-block h3 {
+    text-transform: uppercase;
+    color: #814ebf;
+    font-size: 17px;
+    margin: auto;
+    font-style: normal;
+    width: 300px;
+    text-align: center;
+  }
+  .img-left-block, .img-right-block {
+    width: 600px;
+    height: 400px;
+  }
+  #self-landing-rocket {
+    margin-left: 325px;
+    margin-top: 125px;
+    background-image: url(https://images.unsplash.com/photo-1517976547714-720226b864c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+  }
+  #self-landing-info {
+    position: absolute;
+    height: 230px;
+    width: 394px;
+    bottom: 0px;
+    right: -336px;
+    z-index: +1;
+    margin: -19px;
+    padding-left: 33px;
+  }
+  #clean-rocket {
+    margin-left: 760px;
+    margin-top: 230px;
+    background-image: url(https://rocketman.learnwagtail.com/media/images/pablo-guerrero-pGXUwHZQ5eI-unsplas.2e16d0ba.fill-786x552.jpg);
+  }
+  #clean-rocket-info {
+    position: absolute;
+    height: 230px;
+    width: 426px;
+    bottom: 0px;
+    padding-left: 37px;
+    right: 690px;
+    z-index: +1;
+    margin: -16px;
+  
+  }
+  #gas-guzzler {
+    margin-left: 325px;
+    margin-top: 125px;
+    width: 850px;
+    background-image: url(https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  }
+  
+  #gas-guzzler-info {
+    position: absolute;
+    height: 280px;
+    width: 410px;
+    bottom: 0px;
+    right: -315px;
+    z-index: +1;
+    margin: -19px;
+    padding-left: 33px;
+  }
+  
+  #closing-para {
+    color: black;
+    margin-top: 150px;
+    text-align: center;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  #contact-us-button {
+    display: block;
+    background-color: #814ebf;
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+    padding: 15px 32px;
+  }
+  
+  #contact-us-button:hover {
+    background-color: #5d3292;
+  }
+  
+  #closing-quote {
+    margin: 70px auto;
+    font-weight: 900;
+    width: 1092px;
+   text-align: center;
+  }
+  
+  #quote {
+    font-size: 30px;
+    font-style: italic;
+  }
+  
+  #citation {
+    font-size: 15px;
+  }
+  
+  #ending {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 0px 50px 0px 290px;
+    background-color: #814ebf;
+  }
+  
+  #paragraph {
+    flex-direction: column;
+    margin: 50px auto;
+    text-align: left;
+    color: white;
+  }
+  
+  #paragraph h3 {
+    font-size: 40px;
+  }
+  
+  #paragraph p {
+    font-size: 25px;
+    width: 70%;
+  }
+  
+  #ending-contact {
+    margin: 164px 40px;
+    width: 200px;
+    height: 50px;
+    margin-right: 250px;
+    font-size: 20px;
+    color: #5d3292;
+  }
+  
+  #ending-contact:hover {
+    background-color: #dadada;
+    transition: all 0.3s;
+  }
+  
+  #footer {
+    background-color: #000;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 260px auto auto auto auto 260px;
+    color: white;
+  }
+  
+  .links {  
+    display: grid;
+    grid-column: 2;
+  }
+  
+  .footer .list {
+    list-style: none;
+  }
+  
+  .list{
+    margin-top: -35px;
+    margin-left: -40px;
+  }
+  
+  li {
+    padding-top: 10px;
+    list-style: none;
+  }
+  
+  footer a{
+    color: white;
+  }
+  
+  footer h5{
+    color: #858585;
+  }
+  
+  .social-media-logos{
+    padding-top: 25px;
+    display: flex;
+    column-gap: 10px;
+  }
+  
+  #social-media h6{
+    color: #858585;
+  }
